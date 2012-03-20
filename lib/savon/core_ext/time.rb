@@ -4,7 +4,7 @@ module Savon
 
       # Returns an xs:dateTime formatted String.
       def xs_datetime
-        strftime "%Y-%m-%dT%H:%M:%S%Z"
+        strftime "%Y-%m-%dT%H:%M:%SZ"
       end
 
     end
